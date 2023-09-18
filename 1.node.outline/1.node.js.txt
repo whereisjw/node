@@ -50,11 +50,19 @@
 
 
 
-네트워크 
-ip 135.182.15.17 32bit ipv4
-ipv6 128bit
-MAC
-사설 ip 192.168 이나 10 으로 시작
+4. 실행환경 만들기
+1) node.js 설치 : http://nodejs.org  (노드버전 꼭 확인하기)
+2) 터미널 툴 설치 : 윈도우 : http://cmdder.app
+ 풀버전다운로드 > exe실행
+ 3)개발툴설치 :VSC 등..
+ 4)GIt 설치 및 github연동
+
+ 5. REPL - 터미널 환경에서 실행
+    R : Read, E : Eval, P : Print, L : Loop
+
+6. console 로그에 대한 API 검색 및 활용 - 2. console.js
+
+7.this 정리(global,object) - 3.this.js
 
 
 
