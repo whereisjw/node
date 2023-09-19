@@ -63,7 +63,8 @@
 6. console 로그에 대한 API 검색 및 활용 - 2. console.js
 
 7.this 정리(global,object) - 3.this.js
-
+8.export/require - node, Blocking
+ export/import -JavaScript, Non-blocking
 
 
                 
