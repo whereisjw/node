@@ -1,29 +1,10 @@
-release note
+/* 
+*제목:사진 폴더정리 script 생성
+*요구사항
+1.동영상(mp4),이미지(png)파일들이 함께 있는 폴더를 각각 동영상과 이미지를 분리하여 관리
+2.동영상 파일은 video 폴더에 png 파일은 capture 폴더에 각각 이동하여 정리
+*/
 
-"version": "1.0.0", 메이저/마이너/패치
-메이저는 획기적으로 바꼈을때
-
-npm install underscore
-
-노드 npm 참고사이트
-
----
-
----
-
----
-
----
-
-### 제목:사진 폴더정리 script 생성
-
-### 요구사항
-
-### 1.동영상(mp4),이미지(png)파일들이 함께 있는 폴더를 각각 동영상과 이미지를 분리하여 관리
-
-### 2.동영상 파일은 video 폴더에 png 파일은 capture 폴더에 각각 이동하여 정리
-
-```
 const fs = require("fs");
 const path = require("path");
 
@@ -84,4 +65,3 @@ function isImageFile(file) {
   const fileObject = path.parse(file);
   if (fileObject.ext == ".png" || fileObject.ext == ".png") return true;
 }
-```

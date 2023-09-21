@@ -66,6 +66,23 @@
 8.export/require - node, Blocking
  export/import -JavaScript, Non-blocking
 9.os - 운영체제 정보
+1)os
+2)Process
+3)path
+4)FileSystem
+5)Stream & Buffer
+
+10.npm(node Package Manger)
+
+npmjs.com
+
+노드에서 외부 라이브러리 사용과 프로젝트 관리를 위함
+
+오픈 소스로 제공되며, 천백만명의 개발자들이 사용하는 큰 커뮤니티로 백만개 이상의 라이브러리 존재
+
+NPX는 다운로드하여 저장하지 않고 바로 실행
+
+yarn는 페이스북에서 만든 npm에서 제기되는 문제점을 해결하고자 만듬, React에서 주로 사용되며 NPM과 호환이 됨
 
                 
 
