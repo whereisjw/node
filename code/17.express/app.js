@@ -1,10 +1,3 @@
-# express
-
-익스프레스 미들웨어
-익스프레스는 체이닝도 가능하다
-path경로가 아직 정해지지 않을때는 주석처리하거나 입력하지 않아야 오류가 잘 안난다.
-
-```
 const express = require("express");
 const server = express();
 const course = [
@@ -41,24 +34,3 @@ server.post("/course", (req, res) => {
 server.listen(3300, () => {
   console.log("http://localhost:3300  서버 실행중");
 });
-
-```
-
-### path를 사용한 get sendFile 요청
-
-```
-app.get("/login", (req, res) => {
-  res.sendFile(path.join(__dirname, "login.html"));
-});
-```
-
-### post시 url 인코딩
-
-```
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-app.post("/login", (req, res) => {
-  console.log(req.body);
-});
-```
