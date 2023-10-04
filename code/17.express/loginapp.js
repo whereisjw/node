@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 let memberList = [];
-//path가 root이면 welcome 메세지 출력
+//path가 root이면 welcome 메세지 출력z
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
